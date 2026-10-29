@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "id": "hostile_spawn_overlay",
+  "version": "${version}",
+  "name": "Hostile Spawn Overlay",
+  "description": "Client-side toggleable markers for hostile mob spawn suitability.",
+  "environment": "client",
+  "entrypoints": { "client": ["dev.romeo.spawnoverlay.HostileSpawnOverlay"] },
+  "depends": { "fabricloader": ">=0.19.5", "minecraft": "26.3", "java": ">=25", "fabric-api": "*" }
+}
