@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "id": "armor_stand_block_heads",
+  "version": "${version}",
+  "name": "Armor Stand Block Heads",
+  "description": "Allows one block item to be placed on an armor stand's head and safely retrieved with a second right-click.",
+  "environment": "*",
+  "entrypoints": { "main": ["dev.romeo.blockheads.ArmorStandBlockHeads"] },
+  "depends": { "fabricloader": ">=0.19.5", "minecraft": "26.3", "java": ">=25", "fabric-api": "*" }
+}
